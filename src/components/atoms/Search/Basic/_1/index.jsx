@@ -15,7 +15,7 @@ const SearchInput = forwardRef(({ onChange, onBlur, name, ...rest }, ref) => {
 			maxW={{ base: '100%', md: '250px' }}
 			mb={{ base: '4', md: '0' }}
 			{...rest}
-			backgroundColor="blue"
+			backgroundColor="green"
 		>
 			<InputLeftElement>
 				<Search1 transition="all 0.4s" boxSize={6} color="gray.300" />
