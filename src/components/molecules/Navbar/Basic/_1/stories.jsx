@@ -1,4 +1,4 @@
-import SideBarProvider from 'contexts/SideBar/Provider'
+import SideBarProvider from 'contexts/Sidebar/Provider'
 
 import Card from 'components/atoms/Card/Basic/_1'
 

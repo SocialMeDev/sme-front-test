@@ -7,8 +7,8 @@ import { usePermission } from 'contexts/Permission/Provider'
 import InterfaceContext from './Context'
 import InterfaceReducer from './Reducer'
 
-import Loader from 'components/atoms/Loader/Basic#1'
-import WifiLoader from 'components/atoms/Loader/Basic#2'
+import Loader from 'components/atoms/Loader/Basic/_1'
+import WifiLoader from 'components/atoms/Loader/Animated/_1'
 
 function InterfaceProvider({ children }) {
   const { endedAuthLogic } = useAuth()

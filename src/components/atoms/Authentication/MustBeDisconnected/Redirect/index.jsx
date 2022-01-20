@@ -2,7 +2,7 @@ import { useState, useEffect, memo } from 'react'
 
 import { useAuth } from 'contexts/Auth/Provider'
 
-import Loading from 'components/atoms/Loader/Basic#1'
+import Loading from 'components/atoms/Loader/Basic/_1'
 
 import Checking from './components/Checking'
 

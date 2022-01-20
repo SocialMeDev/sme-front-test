@@ -1,9 +1,9 @@
 import { IconButton } from '@chakra-ui/react'
-import { useSideBar } from 'contexts/SideBar/Provider'
+import { useSidebar } from 'contexts/Sidebar/Provider'
 import { MenuArrowSquare } from 'components/atoms/Icons/Interface'
 
 export default function SidebarDrawerButton() {
-	const { isOpen, onOpen, onClose } = useSideBar()
+	const { isOpen, onOpen, onClose } = useSidebar()
 
 	return (
 		<IconButton

@@ -1,7 +1,7 @@
 import { Switch, VStack, HStack, Text } from '@chakra-ui/react'
 
 import { TagsGroup_2 as Tags } from 'components/atoms/TagsGroup/Basic'
-import { Avatar_1 as Avatar } from 'components/atoms/Avatar/Basic'
+import { Avatar } from 'components/atoms/Avatar/Basic'
 
 import { Table, Td, TrInTbody, Th, Tbody, Thead } from './index'
 

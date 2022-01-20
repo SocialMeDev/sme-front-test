@@ -11,7 +11,7 @@ import {
   useColorModeValue,
 } from '@chakra-ui/react'
 
-import { useSideBar } from 'contexts/SideBar/Provider'
+import { useSideBar } from 'contexts/Sidebar/Provider'
 
 import Logo from './Logo'
 import MenuItem from './MenuItem'

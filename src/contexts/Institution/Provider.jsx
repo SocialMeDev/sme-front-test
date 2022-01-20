@@ -3,7 +3,7 @@ import { Flex, useToast } from '@chakra-ui/react'
 import { useRouter } from 'next/router'
 import InstitutionReducer from './Reducer'
 import InstitutionContext from './Context'
-import Loading from 'components/atoms/Loader/Basic#1'
+import Loading from 'components/atoms/Loader/Basic/_1'
 import showInstitution from 'services/SocialMeApis/modules/appAlerts/calls/showInstitution'
 
 function InstitutionProvider({ children }) {

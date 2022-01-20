@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 
 import Link from 'components/atoms/Link/Basic/_1'
 
-import { useSideBar } from 'contexts/SideBar/Provider'
+import { useSideBar } from 'contexts/Sidebar/Provider'
 
 export default function MenuItem({ groupHref, item }) {
 	const activeBg = useColorModeValue('green.500', 'green.800')

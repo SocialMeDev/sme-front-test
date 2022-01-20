@@ -7,14 +7,14 @@ import layerStyles from './layers'
 import fonts from './fonts'
 
 const customTheme = extendTheme(
-  {
-    styles,
-    colors,
-    fonts,
-    components,
-    layerStyles,
-  },
-  withDefaultColorScheme({ colorScheme: process.env.NEXT_PUBLIC_COLOR_SCHEME })
+	{
+		styles,
+		colors,
+		fonts,
+		components,
+		layerStyles
+	},
+	withDefaultColorScheme({ colorScheme: 'primary' })
 )
 
 export default customTheme

@@ -1,9 +1,9 @@
 import { useEffect, useContext } from 'react'
 import { useDisclosure, useBreakpointValue } from '@chakra-ui/react'
 
-import SideBarContext from './Context'
+import SidebarContext from './Context'
 
-export default function SideBarDrawerProvider({ children }) {
+export default function SidebarDrawerProvider({ children }) {
   const { isOpen, onOpen, onClose } = useDisclosure()
 
   const isMobile = useBreakpointValue({ base: true, md: false })
@@ -16,10 +16,10 @@ export default function SideBarDrawerProvider({ children }) {
   }, [onOpen, onClose, isMobile])
 
   return (
-    <SideBarContext.Provider value={{ isOpen, onOpen, onClose }}>
+    <SidebarContext.Provider value={{ isOpen, onOpen, onClose }}>
       {children}
-    </SideBarContext.Provider>
+    </SidebarContext.Provider>
   )
 }
 
-export const useSideBar = () => useContext(SideBarContext)
+export const useSidebar = () => useContext(SidebarContext)

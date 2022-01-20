@@ -9,13 +9,13 @@ export default {
 
 export const Common = (args) => (
 	<Card {...args}>
-		<VStack>
+		<HStack>
 			<Avatar src="https://uifaces.co/our-content/donated/1H_7AxP0.jpg" />
 
-			<HStack>
+			<VStack>
 				<Text>Primeiro nome</Text>
 				<Text>Ultimo nome</Text>
-			</HStack>
-		</VStack>
+			</VStack>
+		</HStack>
 	</Card>
 )

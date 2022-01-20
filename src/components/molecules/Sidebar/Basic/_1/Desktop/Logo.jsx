@@ -2,7 +2,7 @@ import { memo } from 'react'
 import { useRouter } from 'next/router'
 import { Tooltip, Image, Flex, useColorModeValue } from '@chakra-ui/react'
 
-import { useSideBar } from 'contexts/SideBar/Provider'
+import { useSideBar } from 'contexts/Sidebar/Provider'
 
 function Logo() {
 	console.log('useRouter()', useRouter())
